@@ -1,0 +1,19 @@
+.headline {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headline > span {
+  opacity: 0.6;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 650px) {
+  .headline {
+    text-align: center;
+    width: 80%;
+  }
+}

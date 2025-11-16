@@ -1,0 +1,36 @@
+.tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  background-color: #f0effb;
+  border-radius: 4px;
+  padding: 6px;
+  width: fit-content;
+}
+
+.tabs > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  height: 100%;
+  min-width: 115px;
+  color: #100a55;
+  font-weight: 600;
+  background-color: transparent;
+  opacity: 0.4;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.tabs > button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.tabs > button.active {
+  color: #7065f0;
+  font-weight: 600;
+  opacity: 1;
+  background-color: white;
+}

@@ -1,0 +1,129 @@
+.navbar {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2rem;
+  background-color: #ffffff40;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 20;
+}
+
+.left_items {
+  display: flex;
+  align-items: center;
+}
+
+.right_items {
+  display: flex;
+  gap: 1rem;
+}
+
+.logo {
+  width: 100px;
+  height: 100%;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.nav_items {
+  display: flex;
+  gap: 2.4rem;
+  font-weight: medium;
+  list-style: none;
+}
+
+.nav_items li {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  font-weight: 600;
+}
+
+.login_button {
+  background-color: #e0def7;
+  font-weight: bolder;
+}
+
+.signup_button {
+  background: #7065f0;
+  border-radius: 8px;
+  color: white;
+}
+
+.menu {
+  display: none;
+}
+
+.nav_items_disabled {
+  display: flex;
+  gap: 2.4rem;
+  font-weight: medium;
+  list-style: none;
+}
+
+.right_items_disabled {
+  display: flex;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .menu {
+    display: flex;
+    position: absolute;
+    top: 30px;
+    right: 42px;
+  }
+  .navbar {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 24px;
+    width: 100%;
+    gap: 32px;
+  }
+
+  .left_items {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 24px;
+    padding: 0px 24px;
+  }
+
+  .nav_items {
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    animation: navbar ease 1.4s;
+  }
+
+  .right_items {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    animation: navbar ease 1.4s;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+}
+
+@keyframes navbar {
+  0% {
+    margin-left: 200px;
+    opacity: 0;
+  }
+
+  100% {
+    margin-right: 0px;
+    opacity: 1;
+  }
+}

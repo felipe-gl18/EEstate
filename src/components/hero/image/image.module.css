@@ -1,0 +1,167 @@
+.image_container {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 60%;
+  height: 100vh;
+  background-image: url("/src/assets/house.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 10;
+}
+
+.testimonial {
+  position: absolute;
+  top: 14%;
+  left: -2%;
+  background-color: white;
+  border-radius: 12px;
+  width: 340px;
+  min-height: 340px;
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.company {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.logo {
+  width: 70px;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.profile {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url("/src/assets/profile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.name_role {
+  display: flex;
+  flex-direction: column;
+}
+
+.name_role > p {
+  font-size: large;
+  font-weight: bolder;
+  margin: 0; /* remove a margem padrão */
+}
+
+.name_role > span {
+  opacity: 0.4;
+  font-weight: medium;
+  margin-top: 2px;
+}
+
+.testimonial_phrase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.testimonial_phrase > p {
+  font-weight: bold;
+}
+
+.testimonial_numbers {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.testimonial_separator {
+  width: 100%;
+  height: 1px;
+  background-color: #e5e5e5;
+}
+
+.testimonial_numbers > div > h2 {
+  margin: 0;
+}
+
+.testimonial_numbers > div > p {
+  margin-top: 2px;
+}
+
+.trustpilot {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #000929;
+  padding: 26px;
+  min-width: 224px;
+  border-radius: 10px 0px 0px 0px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.trustpilot > h3 {
+  margin: 0;
+}
+
+.trustpilot > span {
+  font-size: small;
+}
+
+.safety {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+}
+
+@media screen and (max-width: 1450px) {
+  .image_container {
+    width: 52%;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .image_container {
+    width: 46%;
+  }
+
+  .testimonial {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .image_container {
+    display: none;
+  }
+}

@@ -1,0 +1,85 @@
+.numbers {
+  display: flex;
+  gap: 72px;
+  position: absolute;
+  max-width: 800px;
+  left: 10%;
+  top: 74%;
+}
+
+.number > h3 {
+  color: #7065f0;
+}
+
+.number > p {
+  font-weight: 600;
+}
+
+.number_icon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid #e0def7;
+}
+
+.number_icon_bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background-color: #e0def7;
+}
+
+.number_subicon_bg {
+  left: 70%;
+  bottom: 0%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  background-color: #7065f0;
+}
+
+@media screen and (max-width: 850px) {
+  .numbers {
+    display: flex;
+    position: relative;
+    max-width: 80%;
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .numbers {
+    display: flex;
+    position: relative;
+    max-width: 80%;
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+
+  .number {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .number > h3 {
+    margin: 0;
+  }
+}

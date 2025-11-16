@@ -1,0 +1,33 @@
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80px;
+  min-width: 543px;
+  padding: 0px 24px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.email > input {
+  flex: 1;
+  background-color: transparent;
+  border: 0px;
+  outline: none;
+  height: 80px;
+  font-size: 1.2rem;
+}
+
+.email > button {
+  background-color: #7065f0;
+  padding: 12px;
+  color: white;
+  min-width: 132px;
+  max-height: 48px;
+}
+
+@media screen and (max-width: 650px) {
+  .email {
+    min-width: 80%;
+  }
+}

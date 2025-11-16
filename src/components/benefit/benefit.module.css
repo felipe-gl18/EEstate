@@ -1,0 +1,14 @@
+.benefit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+  width: 100%;
+  padding: 0px 0px 100px 0px;
+}
+
+@media screen and (max-width: 1150px) {
+  .benefit {
+    flex-direction: column;
+  }
+}

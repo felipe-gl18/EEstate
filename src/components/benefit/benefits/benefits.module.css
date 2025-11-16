@@ -1,0 +1,13 @@
+.benefits {
+  width: 640px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+@media screen and (max-width: 850px) {
+  .benefits {
+    width: 80%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

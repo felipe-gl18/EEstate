@@ -1,0 +1,130 @@
+.properties_listings {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  background: linear-gradient(0deg, #e0def7 0%, rgba(224, 222, 247, 0) 100%);
+  padding: 0px 0px 100px 0px;
+}
+
+.tabs_and_search {
+  display: flex;
+  justify-content: space-around;
+}
+
+.listings_results {
+  display: grid;
+  grid-template-columns: repeat(3, 352px);
+  justify-content: center;
+  gap: 16px;
+}
+
+.listings_results > div {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border: 1.5px solid #f0effb;
+  border-radius: 8px;
+}
+
+.listings_results > div > img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.listings_results > div > div {
+  padding: 24px;
+}
+
+.details {
+  position: relative;
+}
+
+.like {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: #e8e6f9 solid 1.5px;
+  cursor: pointer;
+}
+
+.details_price {
+  display: flex;
+  align-items: center;
+}
+
+.details_price > h3 {
+  color: #7065f0;
+  font-weight: 900;
+  margin: 0;
+}
+
+.details_price > span {
+  margin-left: 8px;
+  color: #9a94d1;
+  font-weight: 600;
+}
+
+.separator {
+  width: 100%;
+  height: 1px;
+  background-color: #f0effb;
+  margin: 16px 0px;
+}
+
+.accommodations {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6px;
+}
+
+.accommodation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.accommodation > span {
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 1150px) {
+  .listings_results {
+    grid-template-columns: repeat(2, 352px);
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .properties_listings {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tabs_and_search {
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .listings_results {
+    grid-template-columns: repeat(2, 282px);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .listings_results {
+    grid-template-columns: repeat(1, 352px);
+  }
+}

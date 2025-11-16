@@ -1,0 +1,30 @@
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+  padding: 100px 160px;
+}
+
+.stat {
+  text-align: center;
+  color: white;
+}
+
+.stat > span {
+  font-weight: 600;
+  opacity: 0.6;
+}
+
+.separator {
+  width: 1.5px;
+  height: 40px;
+  background-color: white;
+}
+
+@media screen and (max-width: 760px) {
+  .separator {
+    display: none;
+  }
+}

@@ -1,0 +1,29 @@
+.headline {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 160px;
+}
+
+.headline > h1 {
+  color: white;
+  max-width: 444px;
+}
+
+.headline > h1 > strong {
+  color: #7065f0;
+}
+
+.headline > p {
+  width: 406px;
+  color: white;
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 850px) {
+  .headline {
+    flex-direction: column;
+    padding: 60px 20px;
+    text-align: center;
+  }
+}
