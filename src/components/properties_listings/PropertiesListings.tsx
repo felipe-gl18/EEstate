@@ -10,11 +10,19 @@ import BrowseMoreProperties from "./BrowseMoreProperties";
 import { useState } from "react";
 import { FaHeart } from "react-icons/fa";
 
+//images
+import house1 from "../../assets/house_1.jpg";
+import house2 from "../../assets/house_2.jpg";
+import house3 from "../../assets/house_3.jpg";
+import house4 from "../../assets/house_4.jpg";
+import house5 from "../../assets/house_5.jpg";
+import house6 from "../../assets/house_6.jpg";
+
 export default function PropertiesListings() {
   const [search, setSearch] = useState("");
   const [properties, setProperties] = useState([
     {
-      image: "src/assets/house_1.jpg",
+      image: house1,
       price: "$2,095",
       location: "Palm Harbor",
       address: "2699 Green Valley, Highland Lake, FL",
@@ -24,7 +32,7 @@ export default function PropertiesListings() {
       liked: false,
     },
     {
-      image: "src/assets/house_2.jpg",
+      image: house2,
       price: "$2,700",
       location: "Beverly Springfield",
       address: "2821 Lake Sevilla, Palm Harbor, TX",
@@ -34,7 +42,7 @@ export default function PropertiesListings() {
       liked: false,
     },
     {
-      image: "src/assets/house_3.jpg",
+      image: house3,
       price: "$4,550",
       location: "Faulkner Ave",
       address: "909 Woodland St, Michigan, IN",
@@ -44,7 +52,7 @@ export default function PropertiesListings() {
       liked: false,
     },
     {
-      image: "src/assets/house_4.jpg",
+      image: house4,
       price: "$2,400",
       location: "St. Crystal",
       address: "210 US Highway, Highland Lake, FL",
@@ -54,7 +62,7 @@ export default function PropertiesListings() {
       liked: false,
     },
     {
-      image: "src/assets/house_5.jpg",
+      image: house5,
       price: "$1,500",
       location: "Cove Red",
       address: "243 Curlew Road, Palm Harbor, TX",
@@ -64,7 +72,7 @@ export default function PropertiesListings() {
       liked: false,
     },
     {
-      image: "src/assets/house_6.jpg",
+      image: house6,
       price: "$1,600",
       location: "Lakeview Drive",
       address: "909 Woodland St, Michigan, IN",
