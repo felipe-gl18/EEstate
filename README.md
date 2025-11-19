@@ -4,6 +4,22 @@
 
 *npm run dev*
 
+## Screenshots
+<img width="1920" height="1080" alt="Captura de Tela (95)" src="https://github.com/user-attachments/assets/7d18e59f-cfde-489a-8c44-9408ce15bc95" />
+<img width="1920" height="1080" alt="Captura de Tela (96)" src="https://github.com/user-attachments/assets/87655f9c-3288-4b87-b97c-7c137ae55f7c" />
+<img width="1920" height="1080" alt="Captura de Tela (97)" src="https://github.com/user-attachments/assets/bb4fe3fc-3ab7-4fef-bff7-7e95d0c610d7" />
+<img width="1920" height="1080" alt="Captura de Tela (98)" src="https://github.com/user-attachments/assets/f6170d2f-331c-4746-9090-e4fb06195231" />
+<img width="1920" height="1080" alt="Captura de Tela (99)" src="https://github.com/user-attachments/assets/f4c12abc-feb5-4063-8357-8350745e2a5d" />
+<img width="1920" height="1080" alt="Captura de Tela (100)" src="https://github.com/user-attachments/assets/f288babf-9b99-48b2-b905-e6c508cdb3c5" />
+
+
+
+
+
+
+
+
+
 ## This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
