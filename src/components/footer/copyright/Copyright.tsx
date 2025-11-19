@@ -5,13 +5,17 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import styles from "./copyright.module.css";
+
+//images
+import logo from "../../../assets/logo.png";
+
 export default function Copyright() {
   return (
     <div className={styles.copyright}>
       <div className={styles.copyright_details}>
         <p>©2025</p>
         <div className={styles.logo}>
-          <img src="./src/assets/logo.png" alt="EEstate" />
+          <img src={logo} alt="EEstate" />
         </div>
         <p>All rights reserved</p>
       </div>

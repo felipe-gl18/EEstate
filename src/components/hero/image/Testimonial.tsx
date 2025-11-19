@@ -1,6 +1,9 @@
 import { BsChatSquareQuoteFill } from "react-icons/bs";
 import styles from "./image.module.css";
 
+//images
+import logo from "../../../assets/logo.png";
+
 export default function Testimonial() {
   return (
     <div className={styles.testimonial}>
@@ -14,7 +17,7 @@ export default function Testimonial() {
           <div className={styles.company}>
             <span>Moved with</span>
             <div className={styles.logo}>
-              <img src="./src/assets/logo.png" alt="EEstate" />
+              <img src={logo} alt="EEstate" />
             </div>
           </div>
         </div>
