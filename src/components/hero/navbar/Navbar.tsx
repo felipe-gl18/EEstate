@@ -4,6 +4,9 @@ import { HiMenuAlt3 } from "react-icons/hi";
 import { useState } from "react";
 import { IoClose } from "react-icons/io5";
 
+//images
+import logo from "../../../assets/logo.png";
+
 export default function Navbar() {
   const [menuIsOpen, setMenuIsOpen] = useState<boolean>(false);
 
@@ -11,7 +14,7 @@ export default function Navbar() {
     <div className={styles.navbar}>
       <div className={styles.left_items}>
         <div className={styles.logo}>
-          <img src="./src/assets/logo.png" alt="EEstate" />
+          <img src={logo} alt="EEstate" />
         </div>
         <ul
           className={`${styles.nav_items} ${!menuIsOpen ? styles.hidden : ""}`}
